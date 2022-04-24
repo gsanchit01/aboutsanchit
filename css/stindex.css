@@ -9,11 +9,12 @@ body {
   padding-left: 15vh;
 }
 footer {
-text-align: center;
-padding: 21px 0 0 0;
 color: white;
-position: relative;
-flex-wrap: wrap;
+position: absolute; 
+top: auto; 
+bottom: 0;
+left: 50%;
+transform: translate(-50%, 0);
 }
 img{
 padding: 0%;
@@ -51,6 +52,11 @@ text-align: center;
 #sg{
   width: 100vh;
 }
+.active{
+  text-decoration: underline;
+  font-weight: 600;
+  color: wheat;
+}
 .navbar-nav{
 margin-left: auto;
 }
@@ -60,8 +66,8 @@ margin-left: auto;
     background-image: url('../images/bgmob.jpg');
   }
   #container{
-    margin: 53% 0;
-    left: 25%;
+    padding-left: 10%;
+    margin: 50% 0;
   
   }
   #hellod{
@@ -76,16 +82,16 @@ margin-left: auto;
     margin-top: 15%;
   }
   footer{
-    padding: 21px;
+    width: 250px;
   }
   #hello{
-    width: 30vh;
+    width: 100%;
   }
   #im{
-    width: 6vh;
+    width: 20%;
   }
   #sg{
-    width: 30vh;
+    width: 100%;
   }
   #particles-js{
     position: fixed; 
